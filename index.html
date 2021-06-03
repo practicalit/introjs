@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/intro.js@3.4.0/introjs.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="container cta-100 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center mb-4">Steps to use IntroJS</div>
+                </div>
+              <div class="row blog">
+                <div class="col-md-12">
+                  <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>Step One</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i><i class="fa fa-comments-o"></i> Basics</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p id="step1">It is important that you have the cdn files loaded in the html file. You need both the css and js files for the intro.js to work properly. Add the css file on the head and the js file right above the clobsing tag of the body.</p>
+                                </div>
+                                <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>Step Two</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i> <i class="fa fa-comments-o"></i> Calling areas on your page</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p id="step2">Identify the area of the page you would like to have the steps to be shown and mark those. In this example, this is the second part to be shown and makred wiht id of step 2. Each area shall be identified as such. You can give any identifier for the id anyway.</p>
+                                </div>
+                                <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>Step Three</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i> <i class="fa fa-comments-o"></i> Calling the API</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p id="step3">Create your own js file where you will be addng the code related to calling and manipulating the intro.js api. You can do it on the same HTML page or you can also create external js file. Then add the markers and set start. See the intro.js example file added on this project.</p>
+                                </div>
+                                <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--.row-->
+                      </div>
+                      <!--.item-->
+                      <div class="carousel-item ">
+                        <div class="row">
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>News Title</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                </div>
+                                <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>News Title</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                </div>
+                                <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-4" >
+                            <div class="item-box-blog">
+                              <div class="item-box-blog-image">
+                                <!--Date-->
+                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+                                <!--Image-->
+                                <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
+                              </div>
+                              <div class="item-box-blog-body">
+                                <!--Heading-->
+                                <div class="item-box-blog-heading">
+                                  <a href="#" tabindex="0">
+                                    <h5>News Title</h5>
+                                  </a>
+                                </div>
+                                <!--Data-->
+                                <div class="item-box-blog-data" style="padding: px 15px;">
+                                  <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(3)</p>
+                                </div>
+                                <!--Text-->
+                                <div class="item-box-blog-text">
+                                  <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                </div>
+                                 <div class="mt"> <a href="#" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
+                                <!--Read More Button-->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--.row-->
+                      </div>
+                      <!--.item-->
+                    </div>
+                    <!--.carousel-inner-->
+                  </div>
+                  <!--.Carousel-->
+                </div>
+              </div>
+            </div>
+          </div>
+       
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/3.4.0/intro.min.js" integrity="sha512-QWPjvFqgUJv5X6Sq5NXmwJQSEzUEBxmCCcgqJd5/5luZnS6llRbshsChUNKrFlZ4bshKZEJxAHDB+WWdMsGvUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="intro.js"></script>
+</body>
+</html>
