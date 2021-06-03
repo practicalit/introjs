@@ -4,7 +4,7 @@ Intro.js allows the user to have a wizard or steped navigation to the site
 
 ## Installation
 
-Go to (intro js site)[https://introjs.com/docs/getting-started/install] and get the js and css files needed.
+Go to [intro js site](https://introjs.com/docs/getting-started/install) and get the js and css files needed.
 
 You can also do from the node as well.
 
